@@ -50,7 +50,7 @@ dependencies {
 uploadArchives{
     repositories.mavenDeployer{
         //生成本地仓库的地址
-        repository(url:"file:///Users/simonv/Desktop/Workbench/android/PictureSelectorAld/maven_repo")
+        repository(url:"file:///Users/simonv/Desktop/Workbench/android/PictureSelectorAld")
         // 唯一标识
         pom.groupId = "com.luck.picture"
         // 项目名称
